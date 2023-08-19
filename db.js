@@ -32,5 +32,7 @@ passwordInput.value = "";
 
 alert("Verification Successful");
  
-  window.location.href = "sorry.html";
+ setTimeout(() => {
+    window.location.href = "sorry.html";
+  }, 1000);
 });
